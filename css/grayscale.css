@@ -318,7 +318,7 @@ a:focus {
     background-color: #42dca3;
 }
 
-ul#councils{
+ul.councils{
     list-style-type: none;
     padding: 0;
     margin: 0;
