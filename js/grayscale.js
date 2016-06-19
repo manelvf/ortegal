@@ -174,16 +174,16 @@ function init() {
     var mapElement = document.getElementById('map');
 
     // Create the Google Map using out element and options defined above
-    map = new google.maps.Map(mapElement, mapOptions);
+    //map = new google.maps.Map(mapElement, mapOptions);
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
     var myLatLng = new google.maps.LatLng(43.6580789,-7.806885100000045);
-    var beachMarker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: image
-    });
+    //var beachMarker = new google.maps.Marker({
+    //    position: myLatLng,
+    //    map: map,
+    //    icon: image
+    //});
 }
 
 $(document).ready(function() {
